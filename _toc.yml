@@ -7,4 +7,18 @@ chapters:
 - file: markdown
 - file: notebooks
 - file: markdown-notebooks
-- file: mymarkdownfile
+  sections:
+  - file: mymarkdownfile
+# format: jb-book
+# root: index
+# parts:
+#   - caption: Name of Part 1
+#     chapters:
+#     - file: markdown
+#       sections:
+#       - file: notebooks
+#   - caption: Name of Part 2
+#     chapters:
+#     - file: markdown-notebooks
+#       sections:
+#       - file: mymarkdownfile
