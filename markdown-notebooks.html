@@ -109,15 +109,22 @@ const thebe_selector_output = ".output, .cell_output"
    Content with notebooks
   </a>
  </li>
- <li class="toctree-l1 current active">
+ <li class="toctree-l1 current active has-children">
   <a class="current reference internal" href="#">
    Notebooks with MyST Markdown
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="mymarkdownfile.html">
-   Here’s my sample title
-  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="mymarkdownfile.html">
+     Here’s my sample title
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -329,6 +336,8 @@ See the YAML at the top of this page for example.</p></li>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">myst</span> <span class="n">init</span> <span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">markdownfile</span><span class="o">.</span><span class="n">md</span>
 </pre></div>
 </div>
+</div>
+<div class="toctree-wrapper compound">
 </div>
 </div>
 
